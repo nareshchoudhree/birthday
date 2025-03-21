@@ -320,10 +320,14 @@
         }
 
         // Add button click handler
-        document.querySelector('.next-page-button').addEventListener('click', () => {
+        /*document.querySelector('.next-page-button').addEventListener('click', () => {
             // You can replace this with your actual next page URL
             window.location.href = 'final.html';
-        });
+        });*/
+        document.querySelector('.next-page-button').addEventListener('click', () => {
+    console.log('Button clicked! Redirecting to final.html');
+    window.location.href = 'final.html';
+            });
 
         cake.addEventListener('click', startCelebration);
     </script>
